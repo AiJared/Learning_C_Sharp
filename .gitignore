@@ -1,0 +1,17 @@
+## Visual Studio Temporary Files
+.vs/
+*.suo
+*.user
+*.sln.docstates
+
+## Build Outputs (Compiled files)
+bin/
+obj/
+
+## Standard .NET Core/5+ outputs
+[Dd]ebug/
+[Rr]elease/
+
+## Other
+.DS_Store
+*.log
