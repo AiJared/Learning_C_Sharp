@@ -54,4 +54,39 @@ Console.WriteLine("\tAiJared"); // Adds tab before AiJared
 Console.WriteLine("Jared\nMaina"); // Displays Maina on a new line
 // There is a long list of escape sequences for a lot of actions.
 // There is also a way to prevent a program from ending until we type a key.
-Console.ReadKey(); // prevents from program from ending unti we type a key in the console
+// Console.ReadKey();  prevents from program from ending unti we type a key in the console
+
+// Variables
+/*
+Creating a variable takes two steps;
+1. Declaration which is technically declaring the type of the value you will be storing and
+2. Initialization which is basically giving it a value. Example below shows it better
+*/
+int x; // declaration
+x = 123; // initialization
+// You can combine the two steps in just one line of code.
+int y = 321; // the part before the equal sign is declaration and the one after it is initialization
+int z = x + y; // You can even do math with them
+/*
+So those variable behave like the values they represent. 
+Think of them as the represantation of those specific values to the outside.
+
+More meaningful examples below with different data types.
+*/
+
+int age = 26; // An int stores a whole integer
+double height = 5.7; // A double stores a decimal point
+bool alive = true; // A boolean is used in stances where only have two options, using either true or false values
+char symbol = '$'; // This stores a single character, make sure it is within single quotes
+String name = "Jared"; // This stores multiple characters and they must be in double quotes
+String userName = symbol + name; // A variable again can combin two different variables
+
+Console.WriteLine(x);
+Console.WriteLine(y);
+Console.WriteLine(z);
+Console.WriteLine("Hello " + name);
+Console.WriteLine("Your age is " + age);
+Console.WriteLine("Your height is " + height + " feet");
+Console.WriteLine("Are you alive? " + alive);
+Console.WriteLine("Your symbol is: " + symbol);
+Console.WriteLine("Your username is: " + userName);
