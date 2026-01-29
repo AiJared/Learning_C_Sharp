@@ -6,7 +6,7 @@ public class Class1
 	{
 		static void Main(string[] args)
 		{
-			console.writeline("This is my first program in C#.");
+			Console.WriteLine("This is my first program in C#.");
 		}
 	}
 }
