@@ -95,9 +95,38 @@ Console.WriteLine("Your username is: " + userName);
 /*
 These are imutable values which are know at complie time and do not 
 change for the lifetime of the program. This prevents people from changing it
-to be changed.
+if you don't want it to be changed.
 
 To do that we use const before the declaration of a variable as shown below.
 */
 
 const double pi = 3.14159;
+
+// Next is Typecasting
+/*
+This is the ability to change a variable's data type.
+To convert to integer for example we use a method called Convert.ToInt32().
+Let's see in the examples below how we can do it for other data types.
+*/
+
+double a = 3.14;
+int b = Convert.ToInt32(a);
+Console.WriteLine(b);
+
+/*
+What we did above is take the value of a, make a copy of it and assign it to a new
+variable b, if we print a we will still get it's original value of 3.14. What happened
+with b is that it truncated all the values after the decimal point and gave us an integer.
+We can also get the specific data type of a value as shown below.
+*/
+Console.WriteLine(a.GetType());
+Console.WriteLine(b.GetType());
+
+/*
+Now let's go a head anc convert an int to a double. 
+*/
+int c = 123;
+double d = Convert.ToDouble(c); // This will not put a decimal point at the end of the value but it will still be a double.
+Console.WriteLine(d);
+Console.WriteLine(c.GetType());
+Console.WriteLine(d.GetType());
