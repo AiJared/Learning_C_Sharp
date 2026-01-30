@@ -143,3 +143,27 @@ Console.WriteLine(e);
 Console.WriteLine(f);
 Console.WriteLine(e.GetType());
 Console.WriteLine(f.GetType());
+
+/*
+Now we convert a string into a char.
+We will use a method Convert.ToChar() as shown in the example below.
+*/
+
+String g = "$";
+Char h = Convert.ToChar(g);
+Console.WriteLine(g);
+Console.WriteLine(h);
+Console.WriteLine(g.GetType());
+Console.WriteLine(h.GetType());
+
+/*
+Let's convert a string into a boolean next.
+We will use a method Convert.ToBoolean() as show in the example below.
+*/
+
+string i = "true";
+bool j = Convert.ToBoolean(i);
+Console.WriteLine(i);
+Console.WriteLine(j);
+Console.WriteLine(i.GetType());
+Console.WriteLine(j.GetType());
