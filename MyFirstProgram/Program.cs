@@ -90,3 +90,14 @@ Console.WriteLine("Your height is " + height + " feet");
 Console.WriteLine("Are you alive? " + alive);
 Console.WriteLine("Your symbol is: " + symbol);
 Console.WriteLine("Your username is: " + userName);
+
+// Next is Constants
+/*
+These are imutable values which are know at complie time and do not 
+change for the lifetime of the program. This prevents people from changing it
+to be changed.
+
+To do that we use const before the declaration of a variable as shown below.
+*/
+
+const double pi = 3.14159;
