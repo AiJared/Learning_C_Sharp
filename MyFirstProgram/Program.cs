@@ -176,4 +176,12 @@ We use the method Console.ReadLine() as show below.
 
 Console.WriteLine("What is your name?");
 String nme = Console.ReadLine();
-Console.WriteLine("Hello " + nme);
+
+Console.WriteLine("What is your age?");
+int ag = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Hello " + nme + " your age is " + ag);
+
+/*
+Notice how I played with age there? 
+Remember the user input comes in as string so you might want to convert it to another data type if necessary and that's how to do it.
+*/
