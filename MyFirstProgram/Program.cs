@@ -123,10 +123,23 @@ Console.WriteLine(a.GetType());
 Console.WriteLine(b.GetType());
 
 /*
-Now let's go a head anc convert an int to a double. 
+Now let's go a head and convert an int to a double. 
+Just as in integer, we will use a method Convert.ToDouble()
 */
 int c = 123;
 double d = Convert.ToDouble(c); // This will not put a decimal point at the end of the value but it will still be a double.
 Console.WriteLine(d);
 Console.WriteLine(c.GetType());
 Console.WriteLine(d.GetType());
+
+/*
+Let's Convert an int to a string.
+We will use a method Convert.ToString() as shown in the example below.
+*/
+
+int e = 321;
+String f = Convert.ToString(e);
+Console.WriteLine(e);
+Console.WriteLine(f);
+Console.WriteLine(e.GetType());
+Console.WriteLine(f.GetType());
