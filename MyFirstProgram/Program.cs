@@ -167,3 +167,13 @@ Console.WriteLine(i);
 Console.WriteLine(j);
 Console.WriteLine(i.GetType());
 Console.WriteLine(j.GetType());
+
+// How to Accept User Input in C#
+/*
+When the user inputs a value is of the string type.
+We use the method Console.ReadLine() as show below.
+*/
+
+Console.WriteLine("What is your name?");
+String nme = Console.ReadLine();
+Console.WriteLine("Hello " + nme);
