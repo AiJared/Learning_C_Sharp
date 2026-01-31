@@ -202,6 +202,13 @@ You can write it as friends ++; but it will increase by one unlike the previous 
 /* To decrement, we use the exact opposite operator but in a similar fashion.
 Take a look at the example below.
 */
-friends = friends - 1;
-friends -= 1;
-friends--;
+friends = friends - 1; // first method
+friends -= 1; // shortcut
+friends--; // decreasing by one
+
+/* Let's do multiplication.
+We use an asterisk for this one.
+*/
+
+friends = friends * 2; // first method
+friends *= 2; // shortcut
