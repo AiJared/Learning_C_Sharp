@@ -212,3 +212,11 @@ We use an asterisk for this one.
 
 friends = friends * 2; // first method
 friends *= 2; // shortcut
+
+/* Let's do division. Here we use /.
+Now if we are dividing an integer and the more accurate answer is a decimal, don't expect a decision.
+If you want a more accurate decimal number, you would have to change the variable's type to double.
+*/
+
+friends = friends / 2; // first method
+friends /= 2; // shortcut
