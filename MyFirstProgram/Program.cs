@@ -185,3 +185,13 @@ Console.WriteLine("Hello " + nme + " your age is " + ag);
 Notice how I played with age there? 
 Remember the user input comes in as string so you might want to convert it to another data type if necessary and that's how to do it.
 */
+
+// Basic Arithmetic in C#
+/*
+Let's start with addition. Including a quick shortcut on how to do it. 
+*/
+
+int friends = 5;
+//friends = friends + 1; this is one way to do it but the fastest way is shown below.
+friends += 1;
+Console.WriteLine(friends);
