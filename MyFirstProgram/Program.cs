@@ -228,3 +228,7 @@ In this operation we use a % operator. Take a look at the example below.
 int family = 10;
 int remainder = family % 3;
 Console.WriteLine(remainder);
+
+/*
+Bonus point: A modulus can be used to determine if a number is even or odd 
+*/
