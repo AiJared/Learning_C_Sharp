@@ -195,3 +195,6 @@ int friends = 5;
 //friends = friends + 1; this is one way to do it but the fastest way is shown below.
 friends += 1;
 Console.WriteLine(friends);
+/* A third way to increment is using ++ and it is found within loops
+You can write it as friends ++; but it will increase by one unlike the previous two.
+*/
