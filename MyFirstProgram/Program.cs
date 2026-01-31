@@ -220,3 +220,11 @@ If you want a more accurate decimal number, you would have to change the variabl
 
 friends = friends / 2; // first method
 friends /= 2; // shortcut
+
+/*
+Now let's do a modulud operator which is basically checking for a remainder.
+In this operation we use a % operator. Take a look at the example below.
+*/
+int family = 10;
+int remainder = family % 3;
+Console.WriteLine(remainder);
