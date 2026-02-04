@@ -236,8 +236,10 @@ Bonus point: A modulus can be used to determine if a number is even or odd
 // Use Methods of the Math Class
 /*
 The first one is Power.
-It can be accessed through the Math class as Math.pow(x, y) where;
+It can be accessed through the Math class as Math.Pow(x, y) where;
 x is the base and y is the power value as shown in the example below.
 */
 
-double k = 3;
+double n = 3;
+double m = Math.Pow(n, 2);
+Console.WriteLine(m);
