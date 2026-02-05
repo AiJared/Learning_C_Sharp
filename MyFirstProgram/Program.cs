@@ -268,5 +268,14 @@ Next is Rounding. We will use the method Math.Round()
 */
 
 double q = 3.14;
-double s = Math.Round(q);
-Console.WriteLine(s);
+double r = Math.Round(q);
+Console.WriteLine(r);
+
+/*
+Now you can always round a number up by using the Ceiling method.
+You use Math.Ceiling() method.
+*/
+
+double s = 3.14;
+double t = Math.Ceiling(s);
+Console.WriteLine(t);
