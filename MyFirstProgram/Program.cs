@@ -262,3 +262,11 @@ So if you have a negative number it's going to turn that into a positive number.
 double o = -3;
 double p = Math.Abs(o);
 Console.WriteLine(p);
+
+/*
+Next is Rounding. We will use the method Math.Round() 
+*/
+
+double q = 3.14;
+double s = Math.Round(q);
+Console.WriteLine(s);
