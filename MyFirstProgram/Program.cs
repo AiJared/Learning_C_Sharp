@@ -279,3 +279,12 @@ You use Math.Ceiling() method.
 double s = 3.14;
 double t = Math.Ceiling(s);
 Console.WriteLine(t);
+
+/*
+Alternatively there is one for rounding down.
+It uses the Math.Floor() method.
+*/
+
+double u = 3.99;
+double v = Math.Floor(u);
+Console.WriteLine(v);
