@@ -297,3 +297,11 @@ double mi = 2;
 double ma = 3;
 double w = Math.Max(mi, ma);
 Console.WriteLine(w);
+
+/*
+To find the minimum value we use Math.Min(). 
+*/
+
+double mn = Math.Min(mi, ma);
+Console.WriteLine(mn);
+Console.WriteLine(mn.GetType());
