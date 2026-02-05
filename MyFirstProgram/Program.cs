@@ -243,3 +243,22 @@ x is the base and y is the power value as shown in the example below.
 double n = 3;
 double m = Math.Pow(n, 2);
 Console.WriteLine(m);
+
+/*
+Next is the square root, here we use the Math.Sqrt() method.
+Inside the parenthesis we put the value we want to find the square root of.
+*/
+
+double k = 16;
+double l = Math.Sqrt(k);
+Console.WriteLine(l);
+
+/*
+Next is the absolute value and it is basically how far away a number is from zero.
+We will use the method Math.Abs().
+So if you have a negative number it's going to turn that into a positive number.
+*/
+
+double o = -3;
+double p = Math.Abs(o);
+Console.WriteLine(p);
