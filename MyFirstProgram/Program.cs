@@ -288,3 +288,12 @@ It uses the Math.Floor() method.
 double u = 3.99;
 double v = Math.Floor(u);
 Console.WriteLine(v);
+
+/*
+Next is finding the maximum number between two values. 
+*/
+
+double mi = 2;
+double ma = 3;
+double w = Math.Max(mi, ma);
+Console.WriteLine(w);
