@@ -309,9 +309,14 @@ Console.WriteLine(mn.GetType());
 // Creating Random Numbers in C#
 /*
 These are more like pseudo random numbers, not exactly true random numbers but close.
-To do that we will use Random class as we will see in the example below.
+To do that we will use Random class and respective type as we will see in 
+the example below. For example Next() works with integers.
 */
 
 Random random = new Random();
-int num = random.Next(1, 7); // We give it a range or otherwise it will use it's own range of 0 to about 2 billion
-Console.WriteLine(num);
+int intnum = random.Next(1, 7); // We give it a range or otherwise it will use it's own range of 0 to about 2 billion
+Console.WriteLine(intnum);
+
+/*
+We can find the next double number using NextDouble() 
+*/
