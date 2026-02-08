@@ -34,3 +34,16 @@ We are going to access the length of the whole string using the Length property.
 */
 
 Console.WriteLine(fullname.Length);
+
+/*
+Next is using the Substring method.
+This method takes part of the string and creates an entire new string from it.
+It does that but using a specific index position to start with then the number of the
+next characters to be included.
+*/
+
+String firstName = fullname.Substring(0, 5);
+Console.WriteLine(firstName);
+
+String lastName = fullname.Substring(6, 5);
+Console.WriteLine(lastName);
