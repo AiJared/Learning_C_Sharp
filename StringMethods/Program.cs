@@ -6,3 +6,8 @@ start with converting a string to upper case. We use ToUpper().
 
 String fullname = "Jared Maina";
 Console.WriteLine(fullname.ToUpper());
+
+/*
+Converting it to lower case we ue ToLower(). 
+*/
+Console.WriteLine(fullname.ToLower());
