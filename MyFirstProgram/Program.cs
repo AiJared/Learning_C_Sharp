@@ -233,7 +233,7 @@ Console.WriteLine(remainder);
 Bonus point: A modulus can be used to determine if a number is even or odd 
 */
 
-// Use Methods of the Math Class
+// Useful Methods of the Math Class
 /*
 The first one is Power.
 It can be accessed through the Math class as Math.Pow(x, y) where;
@@ -305,3 +305,13 @@ To find the minimum value we use Math.Min().
 double mn = Math.Min(mi, ma);
 Console.WriteLine(mn);
 Console.WriteLine(mn.GetType());
+
+// Creating Random Numbers in C#
+/*
+These are more like pseudo random numbers, not exactly true random numbers but close.
+To do that we will use Random class as we will see in the example below.
+*/
+
+Random random = new Random();
+int num = random.Next(1, 7); // We give it a range or otherwise it will use it's own range of 0 to about 2 billion
+Console.WriteLine(num);
