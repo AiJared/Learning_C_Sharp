@@ -7,4 +7,4 @@ double b = Convert.ToDouble(Console.ReadLine());
 
 double c = Math.Sqrt(a * a + b * b);
 
-Console.WriteLine(c);
+Console.WriteLine("The hypotenuse is: " + c);
