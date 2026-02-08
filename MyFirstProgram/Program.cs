@@ -310,7 +310,10 @@ Console.WriteLine(mn.GetType());
 /*
 These are more like pseudo random numbers, not exactly true random numbers but close.
 To do that we will use Random class and respective type as we will see in 
-the example below. For example random.Next() works with integers.
+the example below.  
+First we instantiate an object in this case we do it as random then use it as many times
+as we want.
+For example random.Next() works with integers.
 */
 
 Random random = new Random();
@@ -323,3 +326,8 @@ We can find the next double number using random.NextDouble() as shown below.
 
 double dbnum = random.NextDouble(); // This is gives us a random decimal number between o and 1.
 Console.WriteLine(dbnum);
+
+/*
+As you can see we only instantiated the random object once and used it for both
+random integer and double.
+*/
