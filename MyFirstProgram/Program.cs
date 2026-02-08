@@ -329,5 +329,13 @@ Console.WriteLine(dbnum);
 
 /*
 As you can see we only instantiated the random object once and used it for both
-random integer and double.
+random integer and double. 
+On that note we can create three different random numbers using the exact same object.
 */
+int intnum2 = random.Next(1, 21);
+double dbnum2 = random.NextDouble();
+int intnum3 = random.Next(1, 11);
+
+Console.WriteLine(intnum2);
+Console.WriteLine(dbnum2);
+Console.WriteLine(intnum3);
