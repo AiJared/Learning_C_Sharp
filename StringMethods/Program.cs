@@ -27,3 +27,10 @@ index position of an existing string.
 
 String userName = fullname.Insert(0, "@");
 Console.WriteLine(userName);
+
+/*
+Next isn't a method but a property but found in the exact same way anyway.
+We are going to access the length of the whole string using the Length property.
+*/
+
+Console.WriteLine(fullname.Length);
