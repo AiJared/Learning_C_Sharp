@@ -28,3 +28,18 @@ else
 {
     Console.WriteLine("You must be 18+ to sign up!");
 }
+
+// Let's do an example with a String instead
+
+Console.WriteLine("Please Enter Your Name: ");
+String name = Console.ReadLine();
+
+if (name == "")
+{
+    Console.WriteLine("You did not enter a name!");
+}
+
+else
+{
+    Console.WriteLine("Hello " + name);
+}
