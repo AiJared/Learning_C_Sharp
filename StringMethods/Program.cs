@@ -19,3 +19,11 @@ string with different ones.
 String phoneNumber = "123-456-789";
 String phonenumber = phoneNumber.Replace("-", ".");
 Console.WriteLine(phonenumber);
+
+/*
+Next we use the Insert method to insert a character or even a string at a specific
+index position of an existing string.
+*/
+
+String userName = fullname.Insert(0, "@");
+Console.WriteLine(userName);
