@@ -34,7 +34,9 @@ else
 Console.WriteLine("Please Enter Your Name: ");
 String name = Console.ReadLine();
 
-if (name == "")
+if (name == "") // the double equal sign here means we are doing a comparison.
+// We can choose to use != in place of the double equal sign.
+// That would simply mean if name is not an empty string then execute the block of code below.
 {
     Console.WriteLine("You did not enter a name!");
 }
