@@ -11,3 +11,11 @@ Console.WriteLine(fullname.ToUpper());
 Converting it to lower case we ue ToLower(). 
 */
 Console.WriteLine(fullname.ToLower());
+
+/*
+Next is using the Replace method to replace specific characters within a
+string with different ones.
+*/
+String phoneNumber = "123-456-789";
+String phonenumber = phoneNumber.Replace("-", ".");
+Console.WriteLine(phonenumber);
