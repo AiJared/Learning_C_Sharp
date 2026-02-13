@@ -23,3 +23,8 @@ if (temp > 10 && temp <= 25)
 /*
 For OR operator to work, one of the conditions have to be true. 
 */
+
+else if (temp <= -50 || temp > 50)
+{
+    Console.WriteLine("DO NOT GO OUTSIDE!");
+}
