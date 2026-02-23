@@ -9,7 +9,16 @@ The second statement is the condition itself for example 1 <= 10.
 The third statement is the number of times we will incrementing the index.
 */
 
-for (int i = 0; i <= 10; i++)
+//for (int i = 0; i <= 10; i++)
+//{
+//    Console.WriteLine(i);
+//}
+
+// Let's try one that counts down to New Year.
+
+for (int i = 10; i > 0; i--)
 {
     Console.WriteLine(i);
 }
+
+Console.WriteLine("Happy New Year");
