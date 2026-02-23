@@ -13,6 +13,7 @@ If we leave it there it will just write them all in a straight line.
 To have then create a rectangle we will close the outer loop with an empty WriteLine.
 */
 
+
 Console.Write("How many rows? ");
 int rows = Convert.ToInt32(Console.ReadLine());
 
@@ -30,3 +31,23 @@ for (int i = 0; i < rows; i++)
     }
     Console.WriteLine();
 }
+
+// Below is another example that demonstrates nested while loop
+Console.Write("How many boys? ");
+int boys = Convert.ToInt32(Console.ReadLine());
+
+Console.Write("How many girls? ");
+int girls = Convert.ToInt32(Console.ReadLine());
+
+Console.Write("What Character? ");
+String character = Console.ReadLine();
+
+while (boys < 3)
+{
+    while (girls < 4)
+    {
+        Console.Write(character);
+    }
+    Console.WriteLine();
+}
+
