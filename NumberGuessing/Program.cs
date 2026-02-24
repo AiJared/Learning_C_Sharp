@@ -48,4 +48,13 @@ while (playAgain)
     response = Console.ReadLine();
     response = response.ToUpper();
 
+    if (response == "Y")
+    {
+        playAgain = true;
+    }
+
+    else
+    {
+        playAgain = false;
+    }
 }
